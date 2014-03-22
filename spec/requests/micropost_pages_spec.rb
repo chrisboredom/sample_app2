@@ -31,6 +31,12 @@ describe "Micropost pages" do
     end
   end
 
+ # describe "micropost pagination" do
+
+  #  it { should have_selector('div.pagination') }
+  
+  #end
+
   describe "micropost destruction" do
     before { FactoryGirl.create(:micropost, user: user) }
 
